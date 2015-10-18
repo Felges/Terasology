@@ -24,45 +24,54 @@ vida do sofware.
 
 Os Estudos de Viabilidade pretendem avaliar se do ponto de vista tecnológico e organizacional se o projecto é viável.
 
-Tendo em conta que o projecto Terasology, é *open source* e sem fim lucrativos, e pelas palavras do Organizador
+Tendo em conta que o projecto Terasology, é *open source* e sem fins lucrativos, e pelas palavras do Organizador
 de Projectos,
 
-> This makes following traditional processes from a work setting difficult. Methodologies like Waterfall, XP, Scrum, and 
+"This makes following traditional processes from a work setting difficult. Methodologies like Waterfall, XP, Scrum, and 
 any kind of structured planning with objectives, deadlines, and so on is nearly impossible to apply. In agile terms the 
 "focus factor" for us as an overall team is exceedingly low, probably in the single digits (0-9%). We simply never know who 
-will be available, when, for how long.
+will be available, when, for how long."
 
-o que significa existirem poucas restrições neste projecto, visto não haver um plano estruturado.
+O que significa existirem poucas restrições neste projecto, visto não haver um plano estruturado.
 
 Apesar de este projecto não seguir nenhuma metedologia, dissemos no primeiro relatório, que este projecto tinha algumas 
-características semelhantes às dos métodos usados em *Agile*, faremos uma analogia semelhante neste relatório ao tópico
+características semelhantes às dos métodos usados em *Agile*. Faremos uma analogia semelhante neste relatório ao tópico
 Engenharia de Requisitos, tendo em conta que neste método a engenharia de requisitos continua ao longo do ciclo de vida 
 do software.
 
 Podemos avaliar a viabilidade do projecto através da interação dos *stakeholders* (utilizadores e colaboradores)
 com o mesmo. Podemos afirmar que o objetivo de investigar e testar técnicas procedimentais de geração de terreno e
 técnicas de renderização eficientes em Java são evidentes, pois existem *Alpha-Releases*, apesar de o jogo 
-ainda não estar em produção, esse é o objectivo, o que significa que o sistema está a contribuir para os objectivos do projecto.
+ainda não estar em produção, mas sendo esse é o objectivo, o que significa que o sistema está a contribuir para os objectivos do projecto.
 
 Da mesma forma, podemos afirmar que os objectivos podem ser implementados visto existirem poucas restrições (tecnológicas 
-temporais, organizacionais etc), não havendo por isso um processo formal, deste modo os organizadores do projecto
+temporais, organizacionais etc), não havendo, por isso, um processo formal. Deste modo, os organizadores do projecto
 não interferem com os colaboradores que querem trabalhar no projecto, sendo possível, por exemplo, para um colaborador 
 apresentar uma nova *feature* sem antes a ter mencionado (introduzida por Pull Request).
 
 Do ponto de vista tecnológico é possível a integração com outros sistemas já que a linguagem utilizada é JAVA.
-Estudados estes aspectos o Terasology indica ser um projecto viável, podendo passar a verificar como é feita a 
+Estudados estes aspectos, o Terasology indica ser um projecto viável, podendo passar a verificar como é feita a 
 Identificação de Requesitos.
 
 ## Processo de Engenharia de Requisitos
 
 #### Identificação de Requisitos
 
-O processo de identificação de requisitos num projeto é uma parte importante do seu desenvolvimento. Esta realidade verifica-se de forma mais acentuada num projeto com as características do Terasology em que o futuro passa por acrescentar funcionalidades novas e integrar novas realidades no jogo.
+O processo de identificação de requisitos num projeto é uma parte importante do seu desenvolvimento. Esta realidade 
+verifica-se de forma mais acentuada num projeto com as características do Terasology em que o futuro passa por
+acrescentar funcionalidades novas e integrar novas realidades no jogo.
 
-Os requisitos no Terasology surgem de forma pouco estruturada. Não existe um cliente estabelecido portanto as sugestões surgem através de contribuidores atuais do projeto, novos contribuidores que se queiram juntar à equipa, ou até mesmo de jogadores.
-O primeiro passo é a apresentação ou identificação do requisito, qualquer membro da comunidade pode apresentar a sua ideia no forum de sugestões do Terasology. Depois disso, quando alguém despertar interesse nessa sugestão, é feito um desenho inicial e são escritas notas técnicas e mais detalhes sobre como implementar.
+Os requisitos no Terasology surgem de forma pouco estruturada. Não existe um cliente estabelecido e portanto as sugestões
+surgem através de contribuidores atuais do projeto, novos contribuidores que se queiram juntar à equipa, ou até mesmo de
+jogadores.
+O primeiro passo é a apresentação ou identificação do requisito e qualquer membro da comunidade pode apresentar a sua ideia
+no forum de sugestões do Terasology. Depois disso, quando alguém despertar interesse nessa sugestão, é feito um desenho inicial
+e são escritas notas técnicas e mais detalhes sobre como implementar.
 
-Estando concluída esta parte pode dizer-se que o requisito está completamente identificado, detalhado e pronto a ser implementado por um contribuidor. No entanto, esta fase inicial pode ser completamente ignorada caso um desenvolvedor se mostre muito entusiasmado com uma ideia própria e parta imediatamente para a escrita de código de forma a implementar a sua ideia.
+Estando concluída esta parte pode dizer-se que o requisito está completamente identificado, detalhado e pronto a ser implementado 
+por um contribuidor. No entanto, esta fase inicial pode ser completamente ignorada caso um desenvolvedor se mostre muito 
+entusiasmado com uma idéia própria e parta imediatamente para a escrita de código de forma a implementar a sua idéia.
+
 #### Análise de Requisitos e Negociação
 
 Após a identificação dos requisitos do sistema, seguem-se as suas analises e posteriormente, negociações.
@@ -100,24 +109,24 @@ evolução do jogo.
 
 * Classificação - O agrupamento de requisitos (sugestões) é feito em fóruns.
 
-* Resolução de comflitos - Visto este projecto ser *open source* e os requisitos serem sugestões da comunidade
+* Resolução de conflitos - Visto este projecto ser *open source* e os requisitos serem sugestões da comunidade
 do Terasology, poder-se-à dizer que a resolução de conflitos é de certa forma feita através de discussões nos mesmos fóruns.
 
 * Priorização - Algumas das melhores sugetões nestes fóruns podem passar a ser implementadas por algum dos contribuidores, mas 
-sem priorização obrigatória, fica a cargo do contribuidor que quiser desenvolver esta *feature* a priorização.
+sem priorização obrigatória, fica a cargo do contribuidor que quiser desenvolver esta *feature* (a priorização).
 
-* Confirmação - É feita do mesmo modo como nos casos anteriores nos fóruns, depois de uma sugestão num fórum uma ideia que seja 
-considerada como possível *feature* é movida para outro fórum, por exmplo: fórum módulo.
+* Confirmação - É feita do mesmo modo como nos casos anteriores nos fóruns, depois de uma sugestão num fórum uma idéia e que seja 
+considerada como possível *feature*, é movida para outro fórum. Por exmplo: fórum módulo.
 
 ##### Dificuldades
 
-A dificuldade neste tipo de análise de requisitos são do tipo orgazicional, não existem métodos de análise é tudo 
+A dificuldade neste tipo de análise de requisitos são do tipo orgazicional, não existem métodos de análise e sim tudo 
 feito de forma liberal a base de discuções em fóruns.
 
 ##### Negociações
 
-As negociações são feitas num ambiente *open source* relaxado em que se conduz em direção a um obejctivo, que é a criação
-um jogo a base de contribuidores e de ideias obtidas através de uma comunidade que cresce ao memo ritmo do desenvolvimento
+As negociações são feitas num ambiente *open source* "relaxado" em que se conduz em direção a um obejctivo, que é a criação
+de um jogo a base de contribuidores e de idéias obtidas através de uma comunidade que cresce ao mesmo ritmo do desenvolvimento
 do jogo, à exploração de tecnologias de desenvolvimento de aplicações gráficas.
 
 #### Especificação de Requisitos
@@ -135,16 +144,16 @@ para partilhar novas ideias e muitos outros fóruns de assuntos derivados que co
 
 A especificação de requisitos do sistema, além das mencionadas anteriormente, conta também com um fórum módulo, fórum *art*
 e *core projects* fórum. A configuração ideal nesta especificação seria, alguém fazer uma sugestão no fórum de sugestões, algum
-colaborador pegar nessa ideia para um *design* inicial, e escreve notas técnicas e mais detalhes sobre como implementá-lo. 
+colaborador pegar nessa ideia para um *design* inicial, escreve notas técnicas e mais detalhes sobre como implementá-lo. 
 Alguém começa a codificá-lo, pode ser a mesma pessoa e muitas vezes este é o ponto onde o processo realmente começa 
 (saltando a fase sugestão porque uma pessoa mostrou-se animada para fazer algo específico). Uma vez realizada esta tarefa
 pega-se no conceito e move-se para o fórum do módulo e verifica-se o enquadramento com algum módulo (a maior parte dos conceitos encaixam-se
 nesta categoria), ou move-se para o fórum de *Art* para verificar se acrescenta valor ao jogo em vez de código, ou move-se para o fórum
 de projectos básicos caso seja para a arquitetura de suporte do jogo, motor de jogo ou outra funcionalidade a nível de biblioteca
-(não conteúdo). O recurso torna-se suficientemente completo para ser colocada em uso. 
+(não conteúdo). O recurso torna-se suficientemente completo para ser colocado em uso. 
 
-Os módulos todos ficam situados nos seus próprios
-repositórios no GitHub, os colaboradores muitas vezes colocam diretamente no repositório sem efectuarem pedidos de *Pull Request*.
+Todos os módulos ficam situados nos seus próprios repositórios no GitHub e os colaboradores muitas vezes colocam-os, diretamente, no 
+repositório sem efectuarem pedidos de *Pull Request*.
 As características do motor jogo que atingem a fase de *Pull Request* são analisadas e fundidas ao projecto. 
 O novo recurso é liberado na próxima versão do jogo.
 
@@ -152,7 +161,7 @@ O novo recurso é liberado na próxima versão do jogo.
 
 A especificação de *design* da aplicação são documentos já existentes contam com uma
 [Wiki](https://github.com/MovingBlocks/Terasology/wiki)
-onde constão promenores mais técnicos acerca da sua implementação e arquitectura. 
+onde constam pormenores mais técnicos acerca da sua implementação e arquitectura. 
 
 Como por exemplo:
 * *Contributing*
@@ -167,7 +176,7 @@ em um nível global, está a ser feita, mas sem conhecer necessariamente os deta
 
 #### Validação de Requisitos
 
-Nesta fase do processo pretende-se demonstrar que o documento de requisitos elaborado define de forma exacta 
+Nesta fase do processo, pretende-se demonstrar que o documento de requisitos elaborado define de forma exacta 
 o sistema que o cliente pretende.
 Esse passo é extremamente importante, porque permite evitar o aparecimento de custos económicos/financeiros 
 para a empresa, que poderão ser muito elevados de corrigir a posteriori.
@@ -189,12 +198,12 @@ podemos afirmar que o processo de validação em relação às técnicas formais
 
 Revisões dos Requisitos: 
 As revisões são feitas um pouco por cada elemento que contribui para o projecto através dos *foruns* disponíveis, 
-apresentam ideias novas a acrescentar ao desenvolvimento do jogo, desde modulos sobre *design até ao motor do jogo.
+apresentam idéias novas a acrescentar ao desenvolvimento do jogo, desde módulos sobre *design até ao motor do jogo.
 
 Prototipação:
 A utilização desta técnica não é patente neste projecto, visto que o desenvolvimento do jogo resultou 
 da evolução de técnicas de criação de terreno, o que se pode concluir que o que está a ser desenvolvido 
-não é algo que se possa conceber com um protótipo. Os colaboradores lançam ideias que posteriormente são 
+não é algo que se possa conceber com um protótipo. Os colaboradores lançam idéias que posteriormente são 
 aceites e juntas, onde as mesmas vão modelando o próprio jogo.
 
 Geração de Casos Teste: 
@@ -208,7 +217,7 @@ Análise de Consistência Automática:
 O jogo Terasology na sua concepção não utiliza quaisquer tipo de modelos de teste que possa de forma automática
 avaliar a consistência dos modelos, dado estes não existirem formalmente.
 
-Pode-se concluir que em geral tópico da validação dos requisitos é de extrema importância no desenvolvimento 
+Pode-se concluir que, em geral, o tópico da validação dos requisitos é de extrema importância no desenvolvimento 
 da Engenharia de Requisitos, pois permite evitar potenciais erros que poderiam por em causa retornos financeiros 
 importantes para a empresa, bem como evitar perante o cliente, utilizadores e outros *stakeholders* discordâncias 
 que possam afectar de forma grave a competência da empresa e a sua imagem externa. Neste caso em concreto, 
@@ -231,9 +240,9 @@ de *Requirements Documentation*, apresenta-se como um sistema com metodoligias u
 em consideração *standards* de desenvolvimeto de software presentes na literatura mundial. 
 Como apreciação final sobre o projecto, poderemos considerar que qualquer projecto, independente do sistema 
 que se pretenda desenvolver e implementar, deveria ter presente sempre a engenharia de requisitos como algo fundamental, para que, 
-a início do projecto se possa realçar de imediato factores importantes para estabelecer uma base, que torne de certa forma o projecto 
+a início do projecto, se possa realçar de imediato factores importantes para estabelecer uma base, que torne de certa forma o projecto 
 em algo que seja minimamente visível ou que apresente no horizonte pontos claros de viabilidade, bem potenciais 
-custos inerentes, dado que os recursos a gerir são escassos inclusivé na Engenharia de Software.
+custos inerentes, dado que os recursos a gerir são escassos inclusive na Engenharia de Software.
 
 ##### Referências
 [Wikipédia](https://pt.wikipedia.org/wiki/Engenharia_de_requisitos)
